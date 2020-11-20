@@ -2,24 +2,38 @@ body {
     background-color: lightblue;
   }
   
-  h1 {
+h1 {
     color: white;
     text-align: center;
   }
-  
-  p {
+p {
     font-family: Altivo;
     font-size: 20px;
-    line-height: 15px;  
-    margin: 15px 0;
-  }
   
+  }  
 i {
-	font-size = 10px;
+	font-size: 18px;
 }
-  #name1 {
+a, u {
+	color: black;
+	text-decoration: none;
+}
+#name1 {
     font-size: 24px;
     text-align: Left;
     color: white;
   }
-#sidebar {width = 300px}
+#sidebar {
+	line-height: 10px;  
+	padding-right: 0px;
+    margin: 15px 0;
+	margin-left: 15px;
+	width: 250px}
+#about, #act1,#act2 {
+	margin: auto;
+	width: 50%;
+	padding-left: 150px
+	
+
+}
+}
