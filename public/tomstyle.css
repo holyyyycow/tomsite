@@ -26,14 +26,16 @@ a, u {
 #sidebar {
 	line-height: 10px;  
 	padding-right: 0px;
-    margin: 15px 0;
+    margin: 15px;
 	margin-left: 15px;
-	width: 250px}
-#about, #act1,#act2 {
-	margin: auto;
-	width: 50%;
-	padding-left: 150px
-	
-
+	width: 250px;
+	position: fixed;
 }
+#about,#reckoning, #act1,#act2, #act3, #sleepwalkers, #island, #cv, #contact {
+	margin: auto;
+	width: 60%;
+	padding-left: 25%;
+}
+.description {
+	font-size: 1;
 }
