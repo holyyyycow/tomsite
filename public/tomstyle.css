@@ -6,9 +6,10 @@ h1 {
     color: white;
     text-align: center;
   }
+
 p {
     font-family: Altivo;
-    font-size: 20px;
+    font-size: 18px;
   
   }  
 i {
@@ -24,18 +25,22 @@ a, u {
     color: white;
   }
 #sidebar {
+	font-size: 10;
 	line-height: 10px;  
 	padding-right: 0px;
-    margin: 15px;
 	margin-left: 15px;
 	width: 250px;
 	position: fixed;
 }
 #about,#reckoning, #act1,#act2, #act3, #sleepwalkers, #island, #cv, #contact {
+	font-size: 15px;
 	margin: auto;
-	width: 60%;
+	top: auto;
+	width: 50%;
 	padding-left: 25%;
+	padding-top: 15px;
+	align-content: stretch;
 }
-.description {
-	font-size: 1;
+iframe {
+	align-content: center;
 }
