@@ -3,18 +3,16 @@ body {
   }
   
 h1 {
-    color: white;
+    
+	color: white;
     text-align: center;
   }
-
 p {
     font-family: Altivo;
-    font-size: 18px;
-  
   }  
 i {
 	font-size: 18px;
-}
+  }
 a, u {
 	color: black;
 	text-decoration: none;
@@ -25,7 +23,7 @@ a, u {
     color: white;
   }
 #sidebar {
-	font-size: 10;
+	font-size: 18px;
 	line-height: 10px;  
 	padding-right: 0px;
 	margin-left: 15px;
@@ -33,14 +31,24 @@ a, u {
 	position: fixed;
 }
 #about,#reckoning, #act1,#act2, #act3, #sleepwalkers, #island, #cv, #contact {
-	font-size: 15px;
+	/* align-content: center; */
+    font-size: 15px;
 	margin: auto;
 	top: auto;
 	width: 50%;
-	padding-left: 25%;
 	padding-top: 15px;
-	align-content: stretch;
-}
+	padding-left: 290px;
+    }
 iframe {
 	align-content: center;
+}
+.title {
+	font-size: 18px;
+}
+#roof {
+	display: flex;
+	margin: auto;
+	
+	
+align-content: center;
 }
