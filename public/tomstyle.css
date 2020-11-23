@@ -37,8 +37,9 @@ a, u {
 	margin: auto;
 	top: auto;
 	width: 50%;
-	padding-top: 15px;
+	padding-top: 100px;
 	padding-left: 290px;
+	padding-bottom: 200px;
     }
 iframe {
 	align-content: center;
@@ -49,11 +50,13 @@ iframe {
 	
 	
 align-content: center;
+	padding: 100px;
 }
-#islandthumb, #sleepthumbnail{
+#reckoningthumb, #act1thumb, #act2thumb, #act3thumb, #islandthumb, #sleepthumbnail{
 	text-align: center;
 	width: 100%;
 	display: inline-block;
+	
 }
 .whitelink {
 	color: white;
