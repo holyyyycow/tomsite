@@ -30,33 +30,34 @@ a, u {
 	width: 250px;
 	position: fixed;
 }
-#about,#reckoning, #act1,#act2, #act3, #sleepwalkers, #island, #cv, #contact {
+#about,#reckoning, #act1,#act2, #act3, #act4, #sleepwalkers, #island, #cv, #contact {
 	/* align-content: center; */
-	
     font-size: 15px;
 	margin: auto;
-	top: auto;
 	width: 50%;
 	padding-top: 100px;
 	padding-left: 290px;
 	padding-bottom: 200px;
     }
+
 iframe {
 	align-content: center;
 }
 #roof {
-	display: flex;
-	margin: auto;
-	
+	display: flex;	
 	
 align-content: center;
-	padding: 100px;
+	padding-bottom: 40px;
 }
-#reckoningthumb, #act1thumb, #act2thumb, #act3thumb, #islandthumb, #sleepthumbnail{
-	text-align: center;
+#reckoningthumb, #act1thumb, #act2thumb, #act3thumb, #islandthumb, #sleepthumbnail, #act4
+.thumbnaildiv{
+text-align: center;
+display: grid;
+grid-gap: 10px;
+grid-template-columns: repeat(3,1fr);
+}
+.thumbnaildiv img{
 	width: 100%;
-	display: inline-block;
-	
 }
 .whitelink {
 	color: white;
@@ -71,9 +72,8 @@ align-content: center;
     color: white;
   }
 .thumbnail{
-	width: 31%;
-	max-width: 30%;
-	padding: 5px;
+	width: 100%;
+	max-width: 100%;
+	padding: px; */
 }
-
 
