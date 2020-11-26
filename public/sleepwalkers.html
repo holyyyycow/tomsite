@@ -13,10 +13,8 @@
 		<p><a href="about.html">About</a></p>
 		<!-- <p>Work</p> -->
 		<p><i><a href="reckoning.html">A Reckoning</a></i></p>
-		<p><i><a href="act1.html">Phase Change: Act I</a></i></p>
-		<p><i><a href="act2.html">Phase Change: Act II</a></i></p>
-		<p><i><a href="act3.html">Phase Change: Act III</a></i></p>
-		<p><i><a href="sleepwalkers.html">Sleepwalkers Song: A Melting</a></i></p>
+		<p><i><a href="phasechange.html">Phase Change</a></i></p>
+		<p><i><a href="sleepwalkers.html">Sleepwalker's Song: A Melting</a></i></p>
 		<p><i><a href="island.html">Time Living On &amp; As an Island</a></i></p>
 		<p><a href="cv.html">CV</a></p>
 		<p><a href="contact.html">Contact</a></p>
@@ -29,18 +27,43 @@
 		<script src="https://player.vimeo.com/api/player.js"></script>
 		<br>
 		<div id="sleepthumbnail" class="thumbnaildiv">
-			<a href="Assets/sleepwalkers/Sleepwalker_Still1.png"><img src="Assets/sleepwalkers/Sleepwalker_Still1.png"
-					class="thumbnail" /></a>
-			<a href="Assets/sleepwalkers/Sleepwalker_Still2.png"><img src="Assets/sleepwalkers/Sleepwalker_Still2.png"
-					class="thumbnail" /></a>
-			<a href="Assets/sleepwalkers/Sleepwalker_Still3.png"><img src="Assets/sleepwalkers/Sleepwalker_Still3.png"
-					class="thumbnail" /></a>
+			<img src="Assets/sleepwalkers/Sleepwalker_Still1.png"
+			onclick="openModal();currentSlide(1)" class="thumbnail"/>
+			<img src="Assets/sleepwalkers/Sleepwalker_Still2.png"
+			onclick="openModal();currentSlide(2)" class="thumbnail"/>
+			<img src="Assets/sleepwalkers/Sleepwalker_Still3.png"
+            onclick="openModal();currentSlide(3)" class="thumbnail"/>
 		</div>
 		<p></p>
 		<p class="title"><i>Sleepwalker’s Song: A Melting</i> (2018, video, total run time 1:42:12)</p>
 		<p>A performance for video where the artist slowly melts a large block of ice. An attempt to lean into pain,
 			holding it, affirming it, and thereby overcoming it. </p>
 	</div>
+
+
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		  <div class="mySlides">
+			<div class="numbertext">1 / 3</div>
+			<img src="Assets/sleepwalkers/Sleepwalker_Still1.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">2 / 3</div>
+			<img src="Assets/sleepwalkers/Sleepwalker_Still2.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">3 / 3</div>
+			<img src="Assets/sleepwalkers/Sleepwalker_Still3.png">
+		  </div>
+	  
+		</div>
+	  </div>
+
+	  <script src="modaldisplay.js"></script>
 </body>
 
 </html>

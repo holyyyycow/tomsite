@@ -13,10 +13,8 @@
 		<p><a href="about.html">About</a></p>
 		<!-- <p>Work</p> -->
 		<p><i><a href="reckoning.html">A Reckoning</a></i></p>
-		<p><i><a href="act1.html">Phase Change: Act I</a></i></p>
-		<p><i><a href="act2.html">Phase Change: Act II</a></i></p>
-		<p><i><a href="act3.html">Phase Change: Act III</a></i></p>
-		<p><i><a href="sleepwalkers.html">Sleepwalkers Song: A Melting</a></i></p>
+		<p><i><a href="phasechange.html">Phase Change</a></i></p>
+		<p><i><a href="sleepwalkers.html">Sleepwalker's Song: A Melting</a></i></p>
 		<p><i><a href="island.html">Time Living On &amp; As an Island</a></i></p>
 		<p><a href="cv.html">CV</a></p>
 		<p><a href="contact.html">Contact</a></p>
@@ -29,15 +27,24 @@
 		<script src="https://player.vimeo.com/api/player.js"></script>
 		<br>
 		<div id="act2thumb" class="thumbnaildiv">
-			<a href="Assets/Act 2/1.png"><img src="Assets/Act 2/thumbnails/act2_thumb1.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/2.png"><img src="Assets/Act 2/thumbnails/act2_thumb2.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/3.png"><img src="Assets/Act 2/thumbnails/act2_thumb3.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/4.png"><img src="Assets/Act 2/thumbnails/act2_thumb4.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/5.png"><img src="Assets/Act 2/thumbnails/act2_thumb5.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/6.png"><img src="Assets/Act 2/thumbnails/act2_thumb6.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/7.png"><img src="Assets/Act 2/thumbnails/act2_thumb7.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/8.png"><img src="Assets/Act 2/thumbnails/act2_thumb8.png" class="thumbnail" /></a>
-			<a href="Assets/Act 2/9.png"><img src="Assets/Act 2/thumbnails/act2_thumb9.png" class="thumbnail" /></a>
+			<img src="Assets/Act 2/thumbnails/act2_thumb1.png"
+            onclick="openModal();currentSlide(1)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb2.png"
+			onclick="openModal();currentSlide(2)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb3.png"
+			onclick="openModal();currentSlide(3)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb4.png"
+			onclick="openModal();currentSlide(4)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb5.png"
+			onclick="openModal();currentSlide(5)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb6.png"
+			onclick="openModal();currentSlide(6)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb7.png"
+			onclick="openModal();currentSlide(7)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb8.png"
+			onclick="openModal();currentSlide(8)" class="thumbnail"/>
+			<img src="Assets/Act 2/thumbnails/act2_thumb9.png"
+            onclick="openModal();currentSlide(9)" class="thumbnail"/>
 		</div>
 		<p class="title"><i>Phase Change: Act II&nbsp;</i>(2019, installation, 4 channel video run time 15:01)</p>
 		<p> The second of a three part year long installation. Leaving the wreckage of Act I, we venture back into
@@ -48,6 +55,61 @@
 			the pages of notebooks, diaries, and the ritual’s musical score.
 		</p>
 	</div>
+
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		  <div class="mySlides">
+			<div class="numbertext">1 / 9</div>
+			<img src="Assets/Act 2/1.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">2 / 9</div>
+			<img src="Assets/Act 2/2.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">3 / 9</div>
+			<img src="Assets/Act 2/3.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">4 / 9</div>
+			<img src="Assets/Act 2/4.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">5 / 9</div>
+			<img src="Assets/Act 2/5.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">6 / 9</div>
+			<img src="Assets/Act 2/6.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">7 / 9</div>
+			<img src="Assets/Act 2/7.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">8 / 9</div>
+			<img src="Assets/Act 2/8.png">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">9 / 9</div>
+			<img src="Assets/Act 2/9.png">
+		  </div>
+	  
+		</div>
+	  </div>
+
+	  <script src="modaldisplay.js"></script>
+
 </body>
 
 </html>
