@@ -2,6 +2,11 @@ body {
 	background-color: lightblue;
 }
 
+@media only screen and (max-width: 600px) {
+	body {
+	}
+  }
+
 h1 {
 
 	color: white;
@@ -33,8 +38,7 @@ a:hover{
 }
 
 #sidebar {
-	background-color: lightblue;
-	height: 100%;
+	background-color: lightblue, .9;
 	font-size: 18px;
 	line-height: 10px;
 	padding-right: 0px;
@@ -42,6 +46,26 @@ a:hover{
 	width: 250px;
 	position: fixed;
 }
+@media only screen and (max-width: 600px) {
+	#sidebar {
+		position: relative;
+	}
+	#about,
+	#reckoning,
+	#act1,
+	#act2,
+	#act3,
+	#act4,
+	#sleepwalkers,
+	#island,
+	#cv,
+	#contact,
+	#phasechange {
+		margin-left: 0 !important;
+		padding-left: 0%;
+		width: 70% !important;
+	}
+  }
 
 #about,
 #reckoning,
@@ -85,7 +109,7 @@ iframe {
 
 #roof {
 	display: flex;
-
+	height: auto;
 	align-content: center;
 	padding-bottom: 40px;
 }
